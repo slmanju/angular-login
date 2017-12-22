@@ -1,5 +1,7 @@
-# HelloLogin
+## Angular 5 Login 
+Implement Angular 5 login functionality
 
+# HelloLogin
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
 ## Development server

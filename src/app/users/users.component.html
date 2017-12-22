@@ -1,0 +1,16 @@
+<form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+  <div class="form-container">
+    <div class="row columns">
+      <h1>My Reactive Form</h1>
+      <label>Name
+        <input type="text" formControlName="name">
+      </label>
+
+      <label>Description
+        <textarea  formControlName="description"></textarea>
+      </label>
+
+      <input type="submit" class="button expanded" value="Submit Form" [disabled]="!rForm.valid">
+    </div>
+  </div>
+</form>

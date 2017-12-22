@@ -1,0 +1,17 @@
+<form [formGroup]="form" (ngSubmit)="addPost()" novalidate>
+  <div>
+    <div>
+      <h3>Registration</h3>
+      <label>User Name:
+        <input type="text" formControlName="username">
+      </label>
+      <label>Password:
+        <input type="password" formControlName="password">
+      </label>
+      <label>E-Mail:
+        <input type="email" formControlName="email">
+      </label>
+      <input type="submit" value="Register" [disabled]="!form.valid">
+    </div>
+  </div>
+</form>
