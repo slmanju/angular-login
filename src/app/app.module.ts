@@ -4,7 +4,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { UsersComponent } from './users/users.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './users/login/login.component';
 import { AppRouterModule } from './app.routes';
@@ -16,7 +15,6 @@ import { ListComponent } from './users/list/list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent,
     HomeComponent,
     LoginComponent,
     RegisterComponent,
